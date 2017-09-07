@@ -1,5 +1,7 @@
 
+# use composer to install drupal 8.3.7
 dougt@ray:~/atn-dev$ /usr/local/bin/composer create-project drupal-composer/drupal-project:8.x-dev atn-dev --stability dev --no-interaction
 
+# tar up the atn-dev directory periodically
 tar cvfz atn-dev.20170907-1100.taz atn-dev
 
